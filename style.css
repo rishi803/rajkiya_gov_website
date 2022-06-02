@@ -1,0 +1,141 @@
+
+    *{
+    margin:0px;
+    padding:0px;
+    box-sizing: border;
+    font-family: 'Cambay', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* .footer{
+  background-color: #c1a4c1;
+background-image: linear-gradient(0deg, #c1a4c1 0%, #97D9E1 100%);
+} */
+
+nav{
+   font-family: 'Mulish', sans-serif;
+    background-image: linear-gradient(43deg,rgb(111, 97, 166),grey) !important;
+    background-repeat: none;
+height:80px;
+}
+.imag{
+ position:absolute;
+ width:80px;
+ top:0;
+}
+.rks,body,.about{
+  text-align: justify;
+  background-color: #add5d1;
+background-image: linear-gradient(160deg, rgb(101, 112, 104) 0%, rgb(92, 130, 103) 0%);
+}
+
+p{
+  font-family: 'Mulish', sans-serif;
+}
+.school_name_cont{
+  width:70%;
+  background-color:rgba(49, 58, 128, 0.3);
+  margin:auto;
+  border-radius: 15px;
+}
+.slide_cont{
+width:80%;
+margin:auto;
+margin-top:85px;
+padding:1px;
+}
+
+ul li a:hover{
+   border-top:1px solid #5dade2;
+   border-bottom:2px solid #264458;
+   color:black;
+   font-weight:bold;
+   border-radius:50px;
+   background:linear-gradient(to bottom,#615cfd 0%, #d465ef 100%);
+   margin:3px;
+}
+.name_college{
+  text-align:center;
+  padding:20px 0px;
+  font-weight:550;
+  font-size:2rem;
+}
+.name_college:hover{
+  filter: drop-shadow(0px 0px 20px #fa0505);
+}
+.container{
+  text-align:center;
+  margin:5em;
+  width:30%;
+  
+}
+.uddeshya{
+  font-size:2.5rem;
+}
+.sabpadhe img{
+  width:60%;
+  margin:auto;
+  padding:20px;
+}
+.pri_sandesh{
+  background-image: linear-gradient(70deg,rgba(255, 0, 242,0.4),rgba(26, 255, 0,0.4));
+  border-radius:10px;
+  padding:10px;
+}
+.pri_sandesh p{
+  font-family: 'Amita', cursive !important; 
+  font-size: large;
+  font-weight:bold;
+}
+.card,.card-body,.card-img-top{
+  margin-top:5px;
+  background-color:#264458;
+  margin:auto;
+}
+.card img{
+  margin:auto;
+  border-radius: 10px;
+  width:300px;
+  height:350px;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%)}
+
+ .btn-grad {
+            text-align: center;
+            transition: 0.4s;
+            background-size: 200% auto;
+            color: white;
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+          }
+
+.btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+ ul{
+  background-color: #4541d0;
+  background-image: linear-gradient(43deg, #4541d0 0%, #b023c5 46%, #7e70ff 100%) !important;
+  background-repeat: none;
+ }
+
+.extra{
+  border: medium none;
+  padding:10px !important;
+  transition:0.3s;
+}
+.extra:hover{
+  box-shadow: matrix3d();
+  transform:translateY(-20px);
+}
+.logo1{
+  height:10px;
+  width:10px;
+}
+/* .footer{
+  text-align: justify;
+  background-color: #add5d1;
+background-image: linear-gradient(160deg, #add5d1 0%, #add5d1 100%);
+} */
