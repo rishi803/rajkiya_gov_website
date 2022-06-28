@@ -139,16 +139,32 @@ ul li a:hover{
 }
 
 .rks_adm{
-  background-color: #ac7596 !important;
+  background-color: #3b7b88 !important;
   width:90%;
   border-radius: 10px;
-  height:20rem;
   margin:auto;
-  padding:10px;
+  padding:30px;
   display:flex;
   justify-content: center;
   align-items: center;
 }
+.rks_adm1{
+  background-color: #3b7b88 !important;
+  width:90%;
+  border-radius: 10px;
+  margin:auto;
+  padding:30px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  font-weight:600;
+}
+.rks_adm img{
+  transition: all 0.3s ease-in-out;
+   transform: rotate3d(0,0,0,0deg)
+}
+
 .footer{
   text-align: justify;
   background-color: #add5d1;
