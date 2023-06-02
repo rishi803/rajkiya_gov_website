@@ -19,14 +19,18 @@
    <div class="back">
      <h1>संपर्क करें</h1>
    <div class="back_img">
-     <label style="padding-left:20px;">नाम: 
-     <input type="text" required style="padding:2px; border-radius:5px" placeholder="कृप्या अपना नाम भरे" id="nameField"></label><br><br>
-     <label>मो. नंबर:
-     <input type="text" required style="padding:2px; border-radius:5px" placeholder="कृप्या अपना मो. नंबर भरे" id="moField"></label><br><br>
-     <label>संदेश:<br>
-       <textarea id="msgContent" cols="0" rows="10" style="max-width:400px"></textarea>
-     </label><br><br>
-     <input type="submit"value='भेजें' class="btn_sub">
+    <form id="contactForm" action="" method="POST">
+      <label for="name">नाम:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="mobile">मोबाइल नंबर:</label>
+      <input type="text" id="mobile" name="mobile" required>
+      
+      <label for="message">संदेश:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <button type="submit">भेजें</button>
+    </form>
    </div>
    </div>
  </form>
