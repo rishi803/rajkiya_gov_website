@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title> Profile | Rishi Singh</title>
+  <title>Contact Us</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,24 +15,26 @@
 </head>
 
 <body>
- <form>
-   <div class="back">
-     <h1>संपर्क करें</h1>
-   <div class="back_img">
-    <form id="contactForm" action="" method="POST">
+  <h1>संपर्क करें</h1><br>
+  <div class="back">
+  
+    <form id="contactForm" action="" method="POST" class="back_img">
+      <div id="alertDiv"></div>
       <label for="name">नाम:</label>
-      <input type="text" id="name" name="name" required>
+      <input type="text" id="name" name="name">
       
       <label for="mobile">मोबाइल नंबर:</label>
-      <input type="text" id="mobile" name="mobile" required>
+      <input type="text" id="mobile" name="mobile">
       
       <label for="message">संदेश:</label>
-      <textarea id="message" name="message" required></textarea>
+      <textarea id="message" name="message"></textarea>
       
       <button type="submit">भेजें</button>
     </form>
-   </div>
-   </div>
- </form>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+  <script src="contact.js"></script>
    
 </body>
